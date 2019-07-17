@@ -1,4 +1,6 @@
-# shopcoulsdon.org
+# Shop Coulsdon Site
+
+[![buddy pipeline](https://app.buddy.works/shop-local/shop-coulsdon-site/pipelines/pipeline/199626/badge.svg?token=ce21b15d3d53cc68787c24ca039b0a6201c34aaca811fd524b7f72c2d0577943 "buddy.works")](https://app.buddy.works/shop-local/shop-coulsdon-site/pipelines/pipeline/199626)
 
 ## Project setup
 ```
