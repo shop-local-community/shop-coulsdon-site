@@ -11,8 +11,6 @@ const TOKEN = process.env.VUE_APP_MAPKIT_TOKEN
 const PRIMARY_COLOR = '#61468b'
 const BLUE_COLOR = '#007bff'
 
-console.log(TOKEN)
-
 export default {
   name: 'LocalMap',
   props: {
