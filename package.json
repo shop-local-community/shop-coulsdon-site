@@ -28,11 +28,11 @@
     "babel-eslint": "^10",
     "eslint": "^6",
     "eslint-plugin-vue": "^5",
+    "gh-pages": "^2",
     "lint-staged": "^8.1.5",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.10",
-    "gh-pages": "^2"
+    "vue-template-compiler": "^2.6.10"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
