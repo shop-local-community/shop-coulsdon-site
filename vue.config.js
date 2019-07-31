@@ -3,5 +3,11 @@ module.exports = {
 
   css: {
     sourceMap: true
+  },
+
+  chainWebpack: config => {
+    config.externals({
+      mapkit: 'mapkit'
+    })
   }
 }
