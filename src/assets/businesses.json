@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Bella Art Cafe",
+        "coordinate": [51.319374, -0.139383]
+    },
+    {
+        "name": "Coulsdon Home Hardware",
+        "coordinate": [51.320899, -0.139077]
+    },
+    {
+        "name": "Cozy Glow",
+        "slug": "cozyglow",
+        "description": "Description…",
+        "link": "https://cozyglow.co.uk",
+        "facebook": "CozyGlowCoulsdon",
+        "instagram": "CozyGlowCandles",
+        "twitter": "CozyGlow",
+        "phone": "020 8668 6498",
+        "coordinate": [51.320568, -0.138776]
+    },
+    {
+        "name": "CyCo Cafe",
+        "coordinate": [51.321323, -0.137984]
+    },
+    {
+        "name": "Light Bar Caffe",
+        "coordinate": [51.322288, -0.136021]
+    },
+    {
+        "name": "Little Lambs Softplay",
+        "coordinate": [51.320755, -0.139614]
+    },
+    {
+        "name": "Trendylane",
+        "coordinate": [51.319996, -0.140449]
+    },
+    {
+        "name": "Token Accessories",
+        "coordinate": [51.320248, -0.139950]
+    },
+    {
+        "name": "Urban Fuse Café",
+        "coordinate": [51.321388, -0.137048]
+    }
+]
