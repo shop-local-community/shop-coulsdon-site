@@ -16,6 +16,10 @@
       </div>
     </div>
 
+    <div class="block block-fill-height">
+      <LocalMap class="block-background" v-bind:businesses="businesses" v-bind:carParks="carParks" />
+    </div>
+
     <div class="block block-inverse block-businesses">
       <div>
         <div class="container">
@@ -30,25 +34,8 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-4">
-              <BusinessCard v-bind:business="{
-                name: 'Cozy Glow',
-                description: 'Description…'
-              }"/>
-            </div>
-
-            <div class="col-lg-4">
-              <BusinessCard v-bind:business="{
-                name: 'Trendy Lane',
-                description: 'Description…'
-              }"/>
-            </div>
-
-            <div class="col-lg-4">
-              <BusinessCard v-bind:business="{
-                name: 'Little Lambs Soft Play',
-                description: 'Description…'
-              }"/>
+            <div class="col-lg-4" v-for="(business, index) in businesses.slice(0, 3)" v-bind:key="index">
+              <BusinessCard v-bind:business="business" />
             </div>
           </div>
         </div>
@@ -61,12 +48,22 @@
 // @ is an alias to /src
 import MenuButton from '@/components/MenuButton.vue'
 import BusinessCard from '@/components/BusinessCard.vue'
+import LocalMap from '@/components/LocalMap.vue'
+import businessesData from '@/assets/businesses.json'
+import carParksData from '@/assets/car-parks.json'
 
 export default {
   name: 'home',
   components: {
     MenuButton,
-    BusinessCard
+    BusinessCard,
+    LocalMap
+  },
+  data () {
+    return {
+      businesses: businessesData,
+      carParks: carParksData
+    }
   }
 }
 </script>
