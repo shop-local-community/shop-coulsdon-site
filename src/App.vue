@@ -9,6 +9,10 @@
         <li class="nav-item">
           <router-link to="/about" class="nav-link" active-class="active">About</router-link>
         </li>
+
+        <li class="nav-item">
+          <router-link to="/map" class="nav-link" active-class="active">Map</router-link>
+        </li>
       </ul>
     </div>
 
