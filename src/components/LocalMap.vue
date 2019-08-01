@@ -1,6 +1,6 @@
 <template>
   <div class="block block-inverse">
-    <div id="map" class="block-background"></div>
+    <div :id="id" class="block-background"></div>
   </div>
 </template>
 
@@ -14,6 +14,7 @@ const BLUE_COLOR = '#007bff'
 export default {
   name: 'LocalMap',
   props: {
+    id: String,
     businesses: Array[Object],
     carParks: Array[Object]
   },
@@ -116,14 +117,14 @@ export default {
       return annotation
     })
 
-    let map = new mapkit.Map('map', {
+    let map = new mapkit.Map(this.id, {
       center: new mapkit.Coordinate(51.319720, -0.140724),
       tintColor: PRIMARY_COLOR
     })
     map.region = Coulsdon
-    map.showItems(businessesAnnotations)
     map.addAnnotations(carParkAnnotations)
     map.addOverlays(carParkOverlays)
+    map.showItems(businessesAnnotations)
 
     // Business annotation callout
     function calloutForLandmarkAnnotation (annotation) {
