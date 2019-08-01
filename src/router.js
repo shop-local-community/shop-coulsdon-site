@@ -29,5 +29,6 @@ export default new Router({
       name: 'shops',
       component: () => import(/* webpackChunkName: "map" */ './views/Shops.vue')
     }
-  ]
+  ],
+  linkExactActiveClass: 'active'
 })
