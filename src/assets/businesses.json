@@ -1,10 +1,12 @@
 [
     {
-        "name": "Bella Art Cafe",
+        "name": "Bella Art Caffe",
+        "facebook": "Bella.Art.Caffe",
         "coordinate": [51.319374, -0.139383]
     },
     {
         "name": "Coulsdon Home Hardware",
+        "facebook": "CoulsdonHomeHardware",
         "coordinate": [51.320899, -0.139077]
     },
     {
@@ -20,26 +22,32 @@
     },
     {
         "name": "CyCo Cafe",
+        "facebook": "CafeCyCo",
         "coordinate": [51.321323, -0.137984]
     },
     {
         "name": "Light Bar Caffe",
+        "facebook": "LightBarCaffe",
         "coordinate": [51.322288, -0.136021]
     },
     {
         "name": "Little Lambs Softplay",
+        "facebook": "LittleLambsSoftplay",
         "coordinate": [51.320755, -0.139614]
     },
     {
         "name": "Trendylane",
+        "facebook": "443623956007317",
         "coordinate": [51.319996, -0.140449]
     },
     {
         "name": "Token Accessories",
+        "facebook": "TokenAccessories",
         "coordinate": [51.320248, -0.139950]
     },
     {
         "name": "Urban Fuse Café",
+        "facebook": "UrbanFuseCafe",
         "coordinate": [51.321388, -0.137048]
     }
 ]
