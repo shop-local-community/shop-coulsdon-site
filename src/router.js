@@ -23,6 +23,11 @@ export default new Router({
       path: '/map',
       name: 'map',
       component: () => import(/* webpackChunkName: "map" */ './views/Map.vue')
+    },
+    {
+      path: '/shops',
+      name: 'shops',
+      component: () => import(/* webpackChunkName: "map" */ './views/Shops.vue')
     }
   ]
 })
