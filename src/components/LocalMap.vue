@@ -55,11 +55,16 @@ export default {
         callout: businessAnnotationCallout
       })
 
-      if (business.facebook) {
+      if (business.slug) {
         annotation.glyphImage = {
-          1: '../assets/img/businesses/' + business.slug + '/glyph.png',
-          2: '../assets/img/businesses/' + business.slug + '/glyph@2x.png',
-          3: '../assets/img/businesses/' + business.slug + '/glyph@3x.png'
+          1: require('@/assets/img/businesses/' + business.slug + '/glyph.png'),
+          2: require('@/assets/img/businesses/' + business.slug + '/glyph@2x.png'),
+          3: require('@/assets/img/businesses/' + business.slug + '/glyph@3x.png')
+        }
+        annotation.selectedGlyphImage = {
+          1: require('@/assets/img/businesses/' + business.slug + '/glyph-selected.png'),
+          2: require('@/assets/img/businesses/' + business.slug + '/glyph-selected@2x.png'),
+          3: require('@/assets/img/businesses/' + business.slug + '/glyph-selected@3x.png')
         }
       }
 
