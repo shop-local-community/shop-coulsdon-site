@@ -16,8 +16,26 @@
       </div>
     </div>
 
-    <div class="block block-fill-height">
-      <LocalMap class="block-background" v-bind:businesses="businesses" v-bind:carParks="carParks" />
+    <div class="block block-transparent block-angle block-map">
+      <div class="block-bg-clip">
+        <div class="block-bg">
+          <LocalMap class="block-bg-img" v-bind:businesses="businesses" v-bind:carParks="carParks" />
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row justify-content-end">
+          <div class="col-md-7 col-lg-6">
+            <h1 class="block-title mb-4">
+              <span class="text-ribbon text-ribbon-primary">
+                <span class="text-serif">Shop Local</span>
+              </span>
+            </h1>
+
+            <router-link to="/map" class="btn btn-square btn-primary btn-lg btn-block">Get exploring</router-link>
+          </div>
+        </div>
+      </div>
     </div>
 
     <div class="block block-inverse block-businesses">
@@ -98,6 +116,19 @@ export default {
 
   img {
     width: 100%;
+  }
+}
+
+.block-map {
+  z-index: 3;
+  margin-top: -($spacer-y * 2.5);
+  margin-bottom: -($spacer-y * 2.5);
+
+  .block-bg {
+    border-top: ($border-width * 10) solid var(--primary);
+    border-bottom: ($border-width * 10) solid var(--primary);
+    right: -(max($spacer-x, $spacer-y) / 2);
+    left: -(max($spacer-x, $spacer-y) / 2);
   }
 }
 
