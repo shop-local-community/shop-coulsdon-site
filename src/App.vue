@@ -3,19 +3,19 @@
     <div id="sidebar" class="stage-shelf">
       <ul class="nav nav-bordered nav-stacked flex-column">
         <li class="nav-item">
-          <router-link to="/" class="nav-link" active-class="active">Home</router-link>
+          <router-link to="/" class="nav-link">Home</router-link>
         </li>
 
         <li class="nav-item">
-          <router-link to="/about" class="nav-link" active-class="active">About</router-link>
+          <router-link to="/about" class="nav-link">About</router-link>
         </li>
 
         <li class="nav-item">
-          <router-link to="/map" class="nav-link" active-class="active">Map</router-link>
+          <router-link to="/map" class="nav-link">Map</router-link>
         </li>
 
         <li class="nav-item">
-          <router-link to="/shops" class="nav-link" active-class="active">Shops</router-link>
+          <router-link to="/shops" class="nav-link">Shops</router-link>
         </li>
       </ul>
     </div>
