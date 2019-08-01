@@ -19,13 +19,13 @@
     <div class="block block-transparent block-angle block-map">
       <div class="block-bg-clip">
         <div class="block-bg">
-          <LocalMap class="block-bg-img" v-bind:businesses="businesses" v-bind:carParks="carParks" />
+          <LocalMap class="block-bg-img" id="home-map" v-bind:businesses="businesses" v-bind:carParks="carParks" />
         </div>
       </div>
 
       <div class="container">
         <div class="row justify-content-end">
-          <div class="col-md-7 col-lg-6">
+          <div class="col-md-5 col-lg-4">
             <h1 class="block-title mb-4">
               <span class="text-ribbon text-ribbon-primary">
                 <span class="text-serif">Shop Local</span>
@@ -52,7 +52,7 @@
           </div>
 
           <div class="row">
-            <div class="col-lg-4" v-for="(business, index) in businesses.slice(0, 3)" v-bind:key="index">
+            <div class="col-lg-4" v-for="business in businesses.slice(0, 3)" v-bind:key="business.slug">
               <BusinessCard v-bind:business="business" />
             </div>
           </div>
