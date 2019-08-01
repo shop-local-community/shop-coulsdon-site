@@ -2,7 +2,7 @@
   <div class="block block-fill-height block-map">
     <MenuButton/>
 
-    <LocalMap class="block-background" v-bind:businesses="businesses" v-bind:carParks="carParks" />
+    <LocalMap class="block-background" id="main-map" v-bind:businesses="businesses" v-bind:carParks="carParks" />
   </div>
 </template>
 
@@ -14,7 +14,7 @@ import businessesData from '@/assets/businesses.json'
 import carParksData from '@/assets/car-parks.json'
 
 export default {
-  name: 'map',
+  name: 'mainMap',
   components: {
     MenuButton,
     LocalMap
