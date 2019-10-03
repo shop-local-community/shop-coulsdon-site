@@ -1,8 +1,28 @@
 [
     {
+        "name": "Advanced Print",
+        "facebook": "AdcancedPrintCoulsdon",
+        "coordinate": [51.320312, -0.139058]
+    },
+    {
+        "name": "Amadeus Florist",
+        "facebook": "AmadeusFlorist",
+        "coordinate": [51.322235, -0.136067]
+    },
+    {
+        "name": "Art & Craft Valley",
+        "facebook": "ArtandCraftValley",
+        "coordinate": [51.320534, -0.139307]
+    },
+    {
         "name": "Bella Art Caffe",
         "facebook": "Bella.Art.Caffe",
         "coordinate": [51.319374, -0.139383]
+    },
+    {
+        "name": "Carpet Supplies",
+        "facebook": "CSLCoulsdon",
+        "coordinate": [51.320343, -0.139746]
     },
     {
         "name": "Coulsdon Home Hardware",
@@ -34,6 +54,11 @@
         "name": "Little Lambs Softplay",
         "facebook": "LittleLambsSoftplay",
         "coordinate": [51.320755, -0.139614]
+    },
+    {
+        "name": "Nonna Rosa's Café",
+        "facebook": "NonnaRosasCafe",
+        "coordinate": [51.322530, -0.136357]
     },
     {
         "name": "Trendylane",
