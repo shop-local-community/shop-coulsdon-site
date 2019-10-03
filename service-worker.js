@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.a0224f277cbbffc33867cc5fb3537c9e.js"
+  "/precache-manifest.ad0cd721726a5cb0b171a798c2dc2789.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "shopcoulsdon.org"});
