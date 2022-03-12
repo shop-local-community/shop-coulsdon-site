@@ -996,7 +996,7 @@
     babel-loader "^8.0.5"
     webpack "^4.0.0"
 
-"@vue/cli-plugin-eslint@^3.9":
+"@vue/cli-plugin-eslint@^3.12.1":
   version "3.12.1"
   resolved "https://registry.yarnpkg.com/@vue/cli-plugin-eslint/-/cli-plugin-eslint-3.12.1.tgz#302c463867f38e790bb996eafdf7159c782dc8cf"
   integrity sha512-tVTZlEZsy3sQbO4LLWFK11yzlWwqVAqaM+IY+BeWHITBzEJKh2KmouG+x6x/reXiU3qROsMJ4Ej3Hs8buSMWyQ==
