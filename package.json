@@ -29,7 +29,7 @@
     "eslint": "^6",
     "eslint-plugin-vue": "^5",
     "gh-pages": "^2",
-    "lint-staged": "^8.1.5",
+    "lint-staged": "^8.2.1",
     "node-sass": "^7.0.0",
     "sass-loader": "^7.1.0",
     "vue-template-compiler": "^2.6.10"
